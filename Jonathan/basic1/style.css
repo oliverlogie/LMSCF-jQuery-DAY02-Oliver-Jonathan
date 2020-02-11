@@ -1,0 +1,19 @@
+#container1 {
+  display: flex;
+  justify-content: space-around; }
+
+img {
+  width: 15%;
+  align-self: center;
+  margin-top: 10%;
+  border: 1px solid;
+  border-radius: 50%; }
+
+#container2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  #container2 .b2, #container2 .b1 {
+    width: 33%; }
+
+/*# sourceMappingURL=style.css.map */

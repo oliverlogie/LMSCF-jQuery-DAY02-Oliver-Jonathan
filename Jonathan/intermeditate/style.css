@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+header {
+  background-color: black;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header #headertext {
+    font-size: 150%;
+    color: white;
+    border-left: 5px white solid;
+    padding-left: 1%; }
+  header #cart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    border: solid 1px white;
+    border-radius: 5px;
+    width: 15%; }
+    header #cart #cartimage {
+      width: 30%;
+      filter: invert(100%); }
+    header #cart #viewcart {
+      color: white; }
+
+main {
+  display: flex; }
+  main #container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5% 0%;
+    width: 80%;
+    margin: auto; }
+    main #container .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 3% 0%;
+      padding: 3% 0%;
+      border: solid 1px;
+      border-radius: 5px;
+      box-shadow: 5px 5px 15px grey;
+      background-color: rgba(0, 0, 0, 0.1);
+      width: 30%;
+      transition: 0.3s; }
+      main #container .item:hover {
+        transform: scale(1.03); }
+      main #container .item img {
+        width: 40%; }
+      main #container .item .itemName {
+        font-size: 150%;
+        margin: 3% 0%; }
+      main #container .item .itemDescription {
+        font-size: 100%;
+        margin: 3% 0%; }
+      main #container .item .shoppingbutton {
+        width: 50%;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        background-color: black;
+        color: white; }
+
+.relative {
+  position: relative; }
+
+#cartlist {
+  width: 20rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: white; }
+
+/*# sourceMappingURL=style.css.map */

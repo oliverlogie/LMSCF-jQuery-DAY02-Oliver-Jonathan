@@ -1,0 +1,48 @@
+
+
+var items = [
+
+		{
+			"name":"milk",
+			"available":true,
+			"desc":"TEXTTEXTTEXTTEXT",
+			"image":"img/milk.png"
+		},
+
+		{
+			"name":"lemon",
+			"available":false,
+			"desc":"TEXTTEXTTEXTTEXT",
+			"image":"img/lemon.png"
+		},
+
+		{
+			"name":"orange juice",
+			"available":true,
+			"desc":"TEXTTEXTTEXTTEXT",
+			"image":"img/juice.png"
+		},
+
+		{
+			"name":"french cheese",
+			"available":false,
+			"desc":"TEXTTEXTTEXTTEXT",
+			"image":"img/cheese.png"
+		},
+
+		{
+			"name":"french cheese",
+			"available":false,
+			"desc":"TEXTTEXTTEXTTEXT",
+			"image":"img/cheese.png"
+		},
+
+		{
+			"name":"french cheese",
+			"available":false,
+			"desc":"TEXTTEXTTEXTTEXT",
+			"image":"img/cheese.png"
+		},
+
+
+	]
