@@ -49,7 +49,7 @@ header
 			padding: 1%;
 
 			border: solid 1px white;
-			border-radius: 5px;
+			border-radius: 5px 5px 0px 0px;
 			
 
 			#cartimage
@@ -71,10 +71,69 @@ header
 			flex-direction: column;
 			
 			border: solid 1px white;
-			border-radius: 5px;
+			border-radius: 0px 0px 5px 5px;
 			color:black;
 
-			background-color: green;
+			padding: 5%;
+
+			background-color: white;
+
+
+			#cartlist
+			{
+				font-size: 80%;
+
+				list-style-type: none;
+
+				li 
+				{
+
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin:1%;
+				
+					img
+					{
+						width:15%;
+					}
+
+				}
+
+			}
+
+			#totaldiv
+				{
+					display:flex;
+
+					flex-direction: column;
+					align-items: center;
+
+					
+					margin-top: 5%;
+
+
+					
+
+					#totalprice
+					{
+						font-weight: bold;
+						align-self: center;
+						
+						
+					}
+
+					#checkoutbutton
+					{
+						width: 40%;
+						margin-top:3%;
+						
+					}
+
+
+
+				}
+			
 		}
 
 
@@ -156,6 +215,8 @@ main
 					border-radius: 10px;
 					background-color: black;
 					color: white;
+
+					cursor: pointer;
 				}
 			}
 		}

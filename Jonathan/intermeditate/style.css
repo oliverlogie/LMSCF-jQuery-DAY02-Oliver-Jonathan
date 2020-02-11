@@ -24,7 +24,7 @@ header {
       align-items: center;
       padding: 1%;
       border: solid 1px white;
-      border-radius: 5px; }
+      border-radius: 5px 5px 0px 0px; }
       header #cart #cartbuttoncontent #cartimage {
         width: 30%;
         filter: invert(100%); }
@@ -34,9 +34,31 @@ header {
       display: none;
       flex-direction: column;
       border: solid 1px white;
-      border-radius: 5px;
+      border-radius: 0px 0px 5px 5px;
       color: black;
-      background-color: green; }
+      padding: 5%;
+      background-color: white; }
+      header #cart #dropdowncart #cartlist {
+        font-size: 80%;
+        list-style-type: none; }
+        header #cart #dropdowncart #cartlist li {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 1%; }
+          header #cart #dropdowncart #cartlist li img {
+            width: 15%; }
+      header #cart #dropdowncart #totaldiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%; }
+        header #cart #dropdowncart #totaldiv #totalprice {
+          font-weight: bold;
+          align-self: center; }
+        header #cart #dropdowncart #totaldiv #checkoutbutton {
+          width: 40%;
+          margin-top: 3%; }
 
 main #containerformenu #container {
   display: flex;
@@ -73,6 +95,7 @@ main #containerformenu #container {
       border: none;
       border-radius: 10px;
       background-color: black;
-      color: white; }
+      color: white;
+      cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

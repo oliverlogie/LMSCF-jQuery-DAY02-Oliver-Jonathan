@@ -6,42 +6,48 @@ var items = [
 			"name":"milk",
 			"available":true,
 			"desc":"TEXTTEXTTEXTTEXT",
-			"image":"img/milk.png"
+			"image":"img/milk.png",
+			"price":6
 		},
 
 		{
 			"name":"lemon",
-			"available":false,
+			"available":true,
 			"desc":"TEXTTEXTTEXTTEXT",
-			"image":"img/lemon.png"
+			"image":"img/lemon.png",
+			"price":4
 		},
 
 		{
 			"name":"orange juice",
 			"available":true,
 			"desc":"TEXTTEXTTEXTTEXT",
-			"image":"img/juice.png"
+			"image":"img/juice.png",
+			"price":1
 		},
 
 		{
 			"name":"french cheese",
 			"available":false,
 			"desc":"TEXTTEXTTEXTTEXT",
-			"image":"img/cheese.png"
+			"image":"img/cheese.png",
+			"price":3
 		},
 
 		{
 			"name":"french cheese",
-			"available":false,
+			"available":true,
 			"desc":"TEXTTEXTTEXTTEXT",
-			"image":"img/cheese.png"
+			"image":"img/cheese.png",
+			"price": 2
 		},
 
 		{
 			"name":"french cheese",
-			"available":false,
+			"available":true,
 			"desc":"TEXTTEXTTEXTTEXT",
-			"image":"img/cheese.png"
+			"image":"img/cheese.png",
+			"price": 5
 		},
 
 
