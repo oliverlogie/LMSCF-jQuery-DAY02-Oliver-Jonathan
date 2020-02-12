@@ -57,8 +57,16 @@ header {
           font-weight: bold;
           align-self: center; }
         header #cart #dropdowncart #totaldiv #checkoutbutton {
-          width: 40%;
+          width: 45%;
           margin-top: 3%; }
+        header #cart #dropdowncart #totaldiv #clearbutton {
+          width: 45%;
+          margin-top: 3%; }
+        header #cart #dropdowncart #totaldiv .option {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          margin: 1%; }
 
 main #containerformenu #container {
   display: flex;

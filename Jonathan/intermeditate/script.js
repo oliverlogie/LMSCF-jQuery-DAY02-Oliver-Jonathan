@@ -51,7 +51,7 @@ $(document).ready(function(){
 	$(".shoppingbutton").on("click", function()
 	{
 
-		var pushed = $(this).attr("id")
+		var pushed = $(this).attr("id") //for example: button0..
 
 		switch(pushed)
 		{	
@@ -169,12 +169,6 @@ $(document).ready(function(){
 
 				console.log("error")
 
-
-
-
-
-
-
 			//for creating more buttons
 
 			// case "button---":
@@ -196,7 +190,10 @@ $(document).ready(function(){
 			
 		}
 
-
+		$("#clearbutton").on('click', function(){
+			$("#itemcount,#totalprice, #stueckzahl0, #stueckzahl1, #stueckzahl2, #stueckzahl3, #stueckzahl4, #stueckzahl5, #stueckzahl6").html("0");
+			total = 0;
+		});
 	})
 
 
